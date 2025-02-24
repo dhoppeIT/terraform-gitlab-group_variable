@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.0.0...v1.0.1) (2025-02-24)
+
+### Bug Fixes
+
+* **terraform:** Fix typo at condition ([58a72aa](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/commit/58a72aa6000bf9a98ee5dea801cff293a42655f8))
+
 ## 1.0.0 (2025-02-07)
 
 ### Features
