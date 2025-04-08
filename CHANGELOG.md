@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.0.1...v1.1.0) (2025-04-08)
+
+### Features
+
+* **terraform:** Add support for argument hidden ([633e40e](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/commit/633e40ef0e39922d71c1f20043839ec961041818))
+
 ## [1.0.1](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.0.0...v1.0.1) (2025-02-24)
 
 ### Bug Fixes
