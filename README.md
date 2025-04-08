@@ -21,7 +21,7 @@ module "gitlab_group_access_token" {
 
 module "gitlab_group_variable" {
   source  = "gitlab.com/terraform-child-modules-48151/terraform-gitlab-group-variable/local"
-  version = "1.0.0"
+  version = "1.1.0"
 
   group = "example-group-48165"
   key   = "example_key"
@@ -62,6 +62,7 @@ No modules.
 | <a name="input_description"></a> [description](#input\_description) | The description of the variable | `string` | `null` | no |
 | <a name="input_environment_scope"></a> [environment\_scope](#input\_environment\_scope) | The environment scope of the variable | `string` | `"*"` | no |
 | <a name="input_group"></a> [group](#input\_group) | The name or id of the group | `string` | n/a | yes |
+| <a name="input_hidden"></a> [hidden](#input\_hidden) | If set to true, the value of the variable will be hidden in the CI/CD User Interface | `bool` | `false` | no |
 | <a name="input_key"></a> [key](#input\_key) | The name of the variable | `string` | n/a | yes |
 | <a name="input_masked"></a> [masked](#input\_masked) | If set to true, the value of the variable will be hidden in job logs | `bool` | `false` | no |
 | <a name="input_protected"></a> [protected](#input\_protected) | If set to true, the variable will be passed only to pipelines running on protected branches and tags | `bool` | `false` | no |

@@ -25,6 +25,12 @@ variable "environment_scope" {
   description = "The environment scope of the variable"
 }
 
+variable "hidden" {
+  type        = bool
+  default     = false
+  description = "If set to true, the value of the variable will be hidden in the CI/CD User Interface"
+}
+
 variable "masked" {
   type        = bool
   default     = false

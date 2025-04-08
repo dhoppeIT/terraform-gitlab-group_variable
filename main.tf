@@ -5,6 +5,7 @@ resource "gitlab_group_variable" "this" {
 
   description       = var.description
   environment_scope = var.environment_scope
+  hidden            = var.hidden
   masked            = var.masked
   protected         = var.protected
   raw               = var.raw
