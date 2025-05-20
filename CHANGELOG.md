@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.1.0...v1.2.0) (2025-05-20)
+
+### Features
+
+* **terraform:** Add support for GitLab 18.x ([dad419d](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/commit/dad419d89026d3ef55089b820dbbdc707ef5c473))
+
 ## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.0.1...v1.1.0) (2025-04-08)
 
 ### Features
