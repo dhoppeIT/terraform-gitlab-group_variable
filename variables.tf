@@ -46,7 +46,7 @@ variable "protected" {
 variable "raw" {
   type        = bool
   default     = false
-  description = "Whether the variable is treated as a raw string"
+  description = "Whether the variable is treated as a raw string. When true, variables in the value are not expanded"
 }
 
 variable "variable_type" {
