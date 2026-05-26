@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.2.0...v2.0.0) (2026-05-26)
+
+### ⚠ BREAKING CHANGES
+
+* **terraform:** This release contains breaking changes. Please have a
+look at the upgrade guide:
+
+  - https://registry.terraform.io/providers/gitlabhq/gitlab/latest/docs/guides/version-19.0-upgrade
+
+### Features
+
+* **terraform:** Add support for GitLab 19.x ([d5c2411](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/commit/d5c24111b9edb4eba3e5ed939518469c1de4d92b))
+
 ## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-group_variable/compare/v1.1.0...v1.2.0) (2025-05-20)
 
 ### Features
